@@ -1,0 +1,23 @@
+.inputTodoBox{
+    justify-content: center;
+    display: flex;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    background-color: var(--panels);
+}
+.inputTodoBox input{
+    width: 800px;
+    height: 30px;
+    margin-top: 10px;
+    background-color: var(--backGround);
+    border: none;
+    border-radius: 5px;
+    color: var(--normalWhite);
+    font-size: 15px;
+}
+.inputTodoBox input:hover{
+    border: 1px solid var(--normalWhite);
+}
+
