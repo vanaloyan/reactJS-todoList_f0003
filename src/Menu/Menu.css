@@ -1,0 +1,45 @@
+.menu{
+    margin-top: 50px;
+    height: 90vh;
+    border: 1px solid var(--item);
+    position: fixed;
+    background-color: var(--backGround);
+    padding: 5px 0 5px 5px ;
+    display: flex;
+}
+.openMenu {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+.closeMenu{
+    display: none;
+}
+.openBtn{
+    width: 15px;
+    height: 100px;
+    background-color: var(--backGround);
+    margin-top: 350px;
+    border: none;
+    cursor: pointer;
+    color: var(--normalWhite);
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.openBtn:hover{
+    background-color: var(--item);
+}
+a{
+    width:200px;
+    background-color: var(--item);
+    margin-bottom: 2px;
+    height: 50px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 5px;
+    color: white;
+}
+a:hover{
+    background-color: var(--itemHover);
+}
